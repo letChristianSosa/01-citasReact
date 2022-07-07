@@ -10,7 +10,6 @@ function App() {
 
   useEffect(() => {
     setPacientes(JSON.parse(localStorage.getItem("pacientes")) ?? []);
-    console.log(pacientes);
   }, []);
 
   useEffect(() => {
